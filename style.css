@@ -26,20 +26,16 @@ body {
 header {
     text-align: center;
     background-color: var(--cor3);
-    min-height: 103px;
+    min-height: 123px;
 }
 
 header h1 {
     font-family: var(--fonte-principal);
     color: var(--cor1);
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 
 }
 
-#imagem-principal {
-    display: block;
-    text-align: right;
-}
 
 nav {
     padding: 5px;
@@ -67,7 +63,7 @@ main {
     margin: auto;
     border-radius: 0px 0px 5px 5px;
     padding: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 57px;
     box-shadow: 5px 4px 5px 0px rgba(0, 0, 0, 0.24);
 }
 
@@ -82,12 +78,32 @@ article > p {
     padding: 6px;
 }
 
+div.video {
+    background-color: var(--cor2);
+    margin: 0px -5px 20px -5px;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 59%;
+    position: relative;
+
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
 aside {
     background-color: var(--cor4);
     max-width: 800px;
     margin: auto;
     margin-bottom: 17px;
-    border-radius: 4px 4px 4px 4px
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 4px 3px 7px 0px rgba(0, 0, 0, 0.342);
 }
 
 aside > h3 {
