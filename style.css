@@ -95,6 +95,7 @@ aside > h3 {
     margin: 0px;
     padding: 5px;
     padding-top: 6px;
+    border-radius: 4px 4px 0px 0px;
     color: white;
 }
 
