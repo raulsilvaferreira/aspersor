@@ -26,6 +26,7 @@ body {
 header {
     text-align: center;
     background-color: var(--cor3);
+    min-height: 103px;
 }
 
 header h1 {
@@ -35,6 +36,11 @@ header h1 {
 
 }
 
+#imagem-principal {
+    display: block;
+    text-align: right;
+}
+
 nav {
     padding: 5px;
     margin-bottom: 10px;
@@ -42,7 +48,7 @@ nav {
 
 nav > a {
     text-decoration: none;
-    color: var(--cor2);
+    color: var(--cor1);
     padding: 10px;
     font-weight: bold;
     border-radius: 3px;
@@ -54,3 +60,12 @@ nav > a:hover {
     color: var(--cor4);
 }
 
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+
+}
