@@ -98,7 +98,7 @@ article > p {
     background-color: var(--cor4);
     columns: 2;
     margin: auto;
-    width: 600px;
+    max-width: 600px;
     padding: 7px;
     border: 2px var(--cor3) solid;
     border-radius: 5px;
